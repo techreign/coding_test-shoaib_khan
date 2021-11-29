@@ -1,13 +1,14 @@
 # Coding Test for Nobul
 
 The goal of this model is to predict the label of the body_basic.
-This is a classification problem where there is only one X variable used to predict one Y variable.
+This is a classification problem where there is only one body of information used to predict one Y variable.
+This information can vectorized into smaller tokens to create more X variables or features.
 This particular problem is a multi-class (trivariate) classification problem, where the output variable can take 
 1 of 3 forms: machine learning, fishing or ice hockey.
 
 Currently, a random forrest model is used which returns model metrics of around 40%. 
 Inspecting this model first we can increase the confusion metrics to around 50% ~ just by changing
-the size of the training and test datasets. I experimented with a few numbers and arrived a 80/20
+the size of the training and test datasets. I experimented with a few numbers and arrived a 70/30
 split, returning the best results. The original 90/10 split was likely overfitted to the test set.
 50% on these metrics is still low and unreliable to make accurate and useful predictions. 
 
