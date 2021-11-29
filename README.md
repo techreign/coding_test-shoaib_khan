@@ -1,5 +1,4 @@
-# coding_test-shoaib_khan
-Coding Test for Nobul
+# Coding Test for Nobul
 
 The goal of this model is to predict the label of the body_basic.
 This is a classification problem where there is only one X variable used to predict one Y variable.
